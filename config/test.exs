@@ -9,7 +9,7 @@ config :sign_dict, SignDict.Endpoint,
 config :sign_dict, :sql_sandbox, true
 
 # Print only warnings and errors during test
-config :logger, level: :warn
+# config :logger, level: :warn
 
 # Configure your database
 config :sign_dict, SignDict.Repo,
